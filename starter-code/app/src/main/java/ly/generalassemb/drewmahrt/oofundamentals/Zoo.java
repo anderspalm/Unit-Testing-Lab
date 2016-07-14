@@ -19,9 +19,9 @@ public class Zoo {
         return zoo;
     }
 
-    public void addAnimal(Animal animal){
-        animals.add(animal);
-    }
+    public void addAnimal(Animal animal){ animals.add(animal); }
+
+    public void deleteAnimal (Animal animal) { animals.remove(animal);}
 
     public ArrayList<Animal> getAnimals(){
         return animals;
